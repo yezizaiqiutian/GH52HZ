@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.graphics.Matrix
 import java.util.Collections
 
+@Deprecated("直接使用Palette就好")
 object PaletteUtils {
 
     public interface Listener{

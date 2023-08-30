@@ -18,7 +18,8 @@ import android.widget.ImageView
  * 圆形/圆角图片
  * 目前只能通过代码定义属性
  */
-class RoundImageView @JvmOverloads constructor(
+@Deprecated("无法处理scrolltype")
+class RoundImageView2 @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : ImageView(context, attrs, defStyleAttr) {
 

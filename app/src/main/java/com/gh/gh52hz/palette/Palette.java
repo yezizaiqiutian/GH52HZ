@@ -1,4 +1,4 @@
-package com.gh.gh52hz;
+package com.gh.gh52hz.palette;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;

@@ -1,27 +1,14 @@
 package com.gh.gh52hz
 
 import android.graphics.Bitmap
-import android.graphics.drawable.Drawable
 import android.os.AsyncTask
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.bumptech.glide.Glide
-import com.bumptech.glide.load.DataSource
-import com.bumptech.glide.load.engine.GlideException
-import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.SimpleTarget
-import com.bumptech.glide.request.target.Target
 import com.bumptech.glide.request.transition.Transition
-import com.gh.gh52hz.ui.theme.GH52HZTheme
+import com.gh.gh52hz.palette.Palette
 import java.lang.ref.WeakReference
 
 class MainActivity : ComponentActivity() {
